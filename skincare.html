@@ -2,291 +2,114 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Skincare — N°55 LABORATORIUM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="description" content="Explore the N°55 fragrance-free skincare system in routine order, with three serum choices and a simple starting pair for sensitive skin." />
+<title>Skincare; N°55 LABORATORIUM</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Archivo:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <!-- ========== NAV ========== -->
-<nav class="nav">
-  <a href="index.html" class="brand">N<span class="deg">°</span>55</a>
-  <div class="links">
-    <a href="skincare.html" class="active">Skincare</a>
-    <a href="#system">The System</a>
-    <a href="#philosophy">Philosophy</a>
-    <a href="#journal">Journal</a>
+<nav class="nav" aria-label="Primary navigation">
+  <a href="index.html" class="brand" aria-label="N°55 Laboratorium home"><img src="logo.svg" alt="" width="46" height="63" /></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+    <span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+  </button>
+  <div class="links" id="site-menu">
+    <a href="index.html">Home</a>
+    <a href="skincare.html" aria-current="page">Products</a>
+    <a href="system.html">Routine</a>
+    <a href="philosophy.html">Science</a>
+    <a href="journal.html">Journal</a>
   </div>
-  <div class="meta">
-    <a href="#account">Account</a>
-    <a href="#cart">Cart · 0</a>
-  </div>
+  <a class="nav-cta" href="journal.html#launch-list">Join launch list</a>
 </nav>
+<main id="main-content">
+  <header class="page-intro">
+    <div><p class="context-line">Eight fragrance-free formulas</p><h1>Choose products by the job your skin needs done.</h1></div>
+    <p>Explore in routine order or begin with the sensitive-skin starting pair. Every formula is fragrance free. Product-specific formula targets and current ingredient records are disclosed on each product page.</p>
+  </header>
 
-<!-- ========== PAGE HEAD ========== -->
-<header class="page-head">
-  <div class="eyebrow">— 01 / The Apothecary</div>
-  <h1>Seven <em>preparations,</em><br/>one principle.</h1>
-  <p class="intro">A complete barrier-first skincare system, each preparation calibrated to pH 5.5 — the resting acidity of healthy skin.</p>
-</header>
+  <section class="starter-band" aria-labelledby="catalog-start-title">
+    <div class="starter-mini-products"><img src="assets/rens.jpg" alt="Rens cleanser" width="110" height="303" /><span aria-hidden="true">+</span><img src="assets/tidlos-hud.jpg" alt="Tidløs Hud moisturiser" width="110" height="303" /></div>
+    <div><p class="section-label">Recommended first</p><h2 id="catalog-start-title">For reactive skin, start with two.</h2><p>Use a gentle cleanser and barrier moisturiser first. Introduce the remaining formulas one at a time after skin feels comfortable.</p><a class="text-link" href="system.html#start-simple">Read the starting protocol <span aria-hidden="true">→</span></a></div>
+  </section>
 
-<!-- ========== FILTERS + GRID ========== -->
-<section class="skincare-grid-wrap">
-  <div class="skincare-filters">
-    <a href="#all" class="active">All · 07</a>
-    <a href="#cleanse">Cleanse · 01</a>
-    <a href="#balance">Balance · 02</a>
-    <a href="#treat">Treat · 02</a>
-    <a href="#nourish">Nourish · 01</a>
-    <a href="#protect">Protect · 01</a>
-  </div>
+  <section class="catalog" aria-labelledby="catalog-title">
+    <div class="catalog-toolbar"><div><p class="section-label">Product index</p><h2 id="catalog-title">The complete system</h2></div><div class="filter-group" aria-label="Filter products"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="daily" aria-pressed="false">Daily routine</button><button type="button" data-filter="serum" aria-pressed="false">Serums</button><button type="button" data-filter="treatment" aria-pressed="false">Weekly treatment</button></div></div>
+    <div class="catalog-grid" id="product-results" tabindex="-1"><article class="catalog-item" data-product-category="daily">
+  <a class="catalog-image" href="rens.html"><img src="assets/rens.jpg" alt="Rens foaming cleanser packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Cleanser</span><h2><a href="rens.html">Rens</a></h2><p>Foaming cleanser</p><div class="catalog-meta"><span>100 mL</span><span>AU$ 38</span></div><a class="text-link" href="rens.html">View Rens <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="daily">
+  <a class="catalog-image" href="tonik.html"><img src="assets/tonik.jpg" alt="Tonik hydrating toner spray bottle" width="1000" height="1502" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Toner</span><h2><a href="tonik.html">Tonik</a></h2><p>Hydrating toner</p><div class="catalog-meta"><span>100 mL</span><span>AU$ 42</span></div><a class="text-link" href="tonik.html">View Tonik <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="serum daily">
+  <a class="catalog-image" href="rav-perle.html"><img src="assets/rav-perle.jpg" alt="Rav Perle brightening antioxidant serum packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Serum option 1</span><h2><a href="rav-perle.html">Rav Perle</a></h2><p>Brightening antioxidant serum</p><div class="catalog-meta"><span>30 mL</span><span>AU$ 88</span></div><a class="text-link" href="rav-perle.html">View Rav Perle <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="serum daily">
+  <a class="catalog-image" href="glod.html"><img src="assets/glod.jpg" alt="Glød soothing oleogel-bead serum packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Serum option 2</span><h2><a href="glod.html">Glød</a></h2><p>Repair and soothing oleogel serum</p><div class="catalog-meta"><span>30 mL</span><span>AU$ 94</span></div><a class="text-link" href="glod.html">View Glød <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="serum daily">
+  <a class="catalog-image" href="serum-3.html"><img src="assets/serum-3.jpg" alt="Serum 3 pink plumping age-support serum packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Serum option 3 · working name</span><h2><a href="serum-3.html">Serum 3</a></h2><p>Pink plumping age-support serum</p><div class="catalog-meta"><span>Format TBC</span><span>Details TBC</span></div><a class="text-link" href="serum-3.html">View Serum 3 <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="daily">
+  <a class="catalog-image" href="tidlos-hud.html"><img src="assets/tidlos-hud.jpg" alt="Tidløs Hud peptide barrier moisturiser packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Moisturiser</span><h2><a href="tidlos-hud.html">Tidløs Hud</a></h2><p>Peptide barrier moisturiser</p><div class="catalog-meta"><span>50 g</span><span>AU$ 92</span></div><a class="text-link" href="tidlos-hud.html">View Tidløs Hud <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="daily">
+  <a class="catalog-image" href="eternus.html"><img src="assets/eternus.jpg" alt="Eternus hybrid facial sunscreen spf 50 packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Sunscreen</span><h2><a href="eternus.html">Eternus</a></h2><p>Hybrid facial sunscreen SPF 50</p><div class="catalog-meta"><span>50 mL</span><span>AU$ 72</span></div><a class="text-link" href="eternus.html">View Eternus <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="catalog-item" data-product-category="treatment">
+  <a class="catalog-image" href="kol.html"><img src="assets/kol.jpg" alt="Køl cooling hydrogel mask packaging" width="160" height="440" loading="lazy" /></a>
+  <div class="catalog-copy"><span class="product-role">Weekly mask</span><h2><a href="kol.html">Køl</a></h2><p>Cooling hydrogel mask</p><div class="catalog-meta"><span>50 g</span><span>AU$ 44</span></div><a class="text-link" href="kol.html">View Køl <span aria-hidden="true">→</span></a></div>
+</article></div>
+  </section>
 
-  <div class="skincare-grid">
-
-    <!-- 1. RENS -->
-    <a class="skincare-card" href="rens.html">
-      <span class="ref">— N°55.01 · Cleanser</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="28" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="34" y="6" width="14" height="6" fill="#D9CFB6"/>
-          <rect x="30" y="12" width="22" height="14" rx="1" fill="#C7B79C"/>
-          <rect x="28" y="26" width="26" height="6" fill="#A89C7E"/>
-          <rect x="14" y="32" width="54" height="180" rx="6" fill="url(#g1)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="18" y="38" width="3" height="170" fill="rgba(255,250,235,0.4)"/>
-          <rect x="22" y="80" width="38" height="100" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="126" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="15" fill="#2A2620">RENS</text>
-          <text x="40" y="140" text-anchor="middle" font-family="Archivo" font-size="3.4" letter-spacing="1.3" fill="#3D3327">FOAMING CLEANSER</text>
-          <text x="40" y="168" text-anchor="middle" font-family="JetBrains Mono" font-size="3" fill="#6E5F45">100 mL</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Rens</div>
-        <div class="type">Foaming Cleanser</div>
-      </div>
-      <div class="meta">
-        <span>100 mL · AU$ 38</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 2. TONIK -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.02 · Toner</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="22" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="32" y="4" width="16" height="16" rx="1.5" fill="#C7B79C"/>
-          <rect x="34" y="20" width="12" height="4" fill="#A89C7E"/>
-          <rect x="22" y="24" width="36" height="188" rx="14" fill="url(#g2)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="25" y="30" width="2.5" height="176" fill="rgba(255,250,235,0.4)"/>
-          <rect x="27" y="88" width="26" height="90" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="128" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="12" fill="#2A2620">TONIK</text>
-          <text x="40" y="140" text-anchor="middle" font-family="Archivo" font-size="2.9" letter-spacing="1" fill="#3D3327">HYDRATING TONER</text>
-          <text x="40" y="164" text-anchor="middle" font-family="JetBrains Mono" font-size="2.8" fill="#6E5F45">100 mL</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Tonik</div>
-        <div class="type">Hydrating Toner</div>
-      </div>
-      <div class="meta">
-        <span>100 mL · AU$ 42</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 3. KØL -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.02 · Gel Mask</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="30" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="10" y="98" width="60" height="22" rx="2" fill="#C7B79C"/>
-          <rect x="10" y="118" width="60" height="3" fill="#A89C7E"/>
-          <rect x="14" y="120" width="52" height="92" rx="3" fill="url(#g3)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="17" y="126" width="3" height="80" fill="rgba(255,250,235,0.4)"/>
-          <rect x="20" y="136" width="40" height="64" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="162" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="12" fill="#2A2620">KØL</text>
-          <text x="40" y="174" text-anchor="middle" font-family="Archivo" font-size="2.7" letter-spacing="1" fill="#3D3327">HYDROGEL MASK</text>
-          <text x="40" y="190" text-anchor="middle" font-family="JetBrains Mono" font-size="2.6" fill="#6E5F45">50 g</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Køl</div>
-        <div class="type">Rinse-off Hydrogel Mask</div>
-      </div>
-      <div class="meta">
-        <span>50 g · AU$ 44</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 4. RAV PERLE -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.03 · Serum</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="20" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="30" y="2" width="20" height="40" rx="1" fill="#C7B79C"/>
-          <rect x="34" y="42" width="12" height="14" fill="#A89C7E"/>
-          <rect x="24" y="56" width="32" height="156" rx="4" fill="url(#g4)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="27" y="62" width="2.5" height="144" fill="rgba(255,250,235,0.4)"/>
-          <rect x="29" y="100" width="22" height="78" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="130" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="9" fill="#2A2620">RAV PERLE</text>
-          <text x="40" y="142" text-anchor="middle" font-family="Archivo" font-size="2.3" letter-spacing="0.8" fill="#3D3327">BI-PHASIC ESSENCE</text>
-          <text x="40" y="164" text-anchor="middle" font-family="JetBrains Mono" font-size="2.6" fill="#6E5F45">30 mL</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Rav Perle</div>
-        <div class="type">Bi-Phasic Essence · Peptide Care</div>
-      </div>
-      <div class="meta">
-        <span>30 mL · AU$ 88</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 5. TIDLØS HUD -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.04 · Moisturiser</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="30" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <path d="M 14 92 Q 14 80, 26 80 L 54 80 Q 66 80, 66 92 L 66 118 L 14 118 Z" fill="#C7B79C"/>
-          <rect x="10" y="116" width="60" height="3" fill="#A89C7E"/>
-          <rect x="14" y="118" width="52" height="94" rx="4" fill="url(#g5)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="17" y="124" width="3" height="84" fill="rgba(255,250,235,0.4)"/>
-          <rect x="20" y="136" width="40" height="68" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="158" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="8" fill="#2A2620">TIDLØS HUD</text>
-          <text x="40" y="168" text-anchor="middle" font-family="Archivo" font-size="2.4" letter-spacing="0.8" fill="#3D3327">PEPTIDE BARRIER CREAM</text>
-          <text x="40" y="190" text-anchor="middle" font-family="JetBrains Mono" font-size="2.6" fill="#6E5F45">50 g</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Tidløs Hud</div>
-        <div class="type">Renewing Peptide Barrier Cream</div>
-      </div>
-      <div class="meta">
-        <span>50 g · AU$ 92</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 6. ETERNUS -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.06 · Sunscreen</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BAB096"/><stop offset="50%" stop-color="#E2D9BD"/><stop offset="100%" stop-color="#A89E83"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="22" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="32" y="204" width="16" height="10" rx="1" fill="#A89C7E"/>
-          <rect x="20" y="14" width="40" height="3" fill="#1F1B15"/>
-          <path d="M 22 17 L 58 17 L 56 210 L 24 210 Z" fill="url(#g6)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="24" y="22" width="2.5" height="184" fill="rgba(255,250,235,0.35)"/>
-          <rect x="28" y="70" width="24" height="110" rx="1" fill="rgba(248,242,224,0.5)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="116" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="10" fill="#2A2620">ETERNUS</text>
-          <text x="40" y="128" text-anchor="middle" font-family="Archivo" font-size="2.8" letter-spacing="1" fill="#3D3327">SPF 50</text>
-          <text x="40" y="138" text-anchor="middle" font-family="Archivo" font-size="2.3" letter-spacing="0.8" fill="#3D3327">HYBRID SUNSCREEN</text>
-          <text x="40" y="164" text-anchor="middle" font-family="JetBrains Mono" font-size="2.4" fill="#6E5F45">50 mL</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Eternus</div>
-        <div class="type">Hybrid Facial Sunscreen · SPF 50</div>
-      </div>
-      <div class="meta">
-        <span>50 mL · AU$ 56</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-    <!-- 7. GLØD -->
-    <a class="skincare-card" href="#">
-      <span class="ref">— N°55.07 · Pearl Essence</span>
-      <div class="img-area">
-        <svg viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BFB69E"/><stop offset="50%" stop-color="#ECE5D0"/><stop offset="100%" stop-color="#BFB69E"/></linearGradient></defs>
-          <ellipse cx="40" cy="216" rx="20" ry="2" fill="rgba(45,38,28,0.18)"/>
-          <rect x="30" y="2" width="20" height="40" rx="1" fill="#C7B79C"/>
-          <rect x="34" y="42" width="12" height="14" fill="#A89C7E"/>
-          <rect x="24" y="56" width="32" height="156" rx="4" fill="url(#g7)" stroke="#A89D80" stroke-width="0.4"/>
-          <rect x="27" y="62" width="2.5" height="144" fill="rgba(255,250,235,0.4)"/>
-          <rect x="29" y="100" width="22" height="78" rx="1" fill="rgba(248,242,224,0.45)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
-          <text x="40" y="130" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="12" fill="#2A2620">GLØD</text>
-          <text x="40" y="142" text-anchor="middle" font-family="Archivo" font-size="2.3" letter-spacing="0.8" fill="#3D3327">PEARL ESSENCE</text>
-          <text x="40" y="164" text-anchor="middle" font-family="JetBrains Mono" font-size="2.6" fill="#6E5F45">30 mL</text>
-        </svg>
-      </div>
-      <div>
-        <div class="name">Glød</div>
-        <div class="type">Visible Pearl Essence · Radiance Infusion</div>
-      </div>
-      <div class="meta">
-        <span>30 mL · AU$ 94</span>
-        <span class="arrow">→</span>
-      </div>
-    </a>
-
-  </div>
-</section>
-
-<!-- ========== FOOTER ========== -->
+  <section class="serum-guide" id="serum-guide" aria-labelledby="serum-title">
+    <div class="section-intro"><p class="section-label">One serum step, three choices</p><h2 id="serum-title">Choose according to the formula direction you need.</h2><p>Rav Perle, Glød and Serum 3 occupy the same routine step. You do not need to layer them.</p></div>
+    <div class="comparison-table" role="region" aria-label="Serum comparison" tabindex="0">
+      <table><thead><tr><th scope="col">Choose</th><th scope="col">Rav Perle</th><th scope="col">Glød</th><th scope="col">Serum 3</th></tr></thead><tbody>
+        <tr><th scope="row">Formula direction</th><td>3% niacinamide with tocopherol and ubiquinone</td><td>Ectoin with a squalene and bisabolol oil bead</td><td>Peptides, 0.5% bakuchiol and humectants</td></tr>
+        <tr><th scope="row">Best fit</th><td>Brightening and antioxidant support</td><td>Barrier repair support and soothing comfort</td><td>Plumping hydration and age-supportive care</td></tr>
+        <tr><th scope="row">Use</th><td>After toner, before moisturiser</td><td>After toner, before moisturiser</td><td>After toner, before moisturiser</td></tr>
+      </tbody></table>
+    </div>
+  </section>
+</main>
 <footer>
-  <div class="foot-closing">— Precision Care · Healthy Skin · Conscious Future —</div>
+  <div class="footer-lead">
+    <a href="index.html" class="footer-brand">N°55 Laboratorium</a>
+    <p>Copenhagen-inspired, fragrance-free skincare for sensitive routines, formulated in Australia with restrained evidence standards.</p>
+    <a class="text-link" href="journal.html#launch-list">Join the launch list <span aria-hidden="true">→</span></a>
+  </div>
   <div class="foot-grid">
-    <div class="foot-col foot-mark">
-      <div class="brandsvg"><img src="logo.svg" alt="N°55" /></div>
-      <span class="sub">Skin Equilibrium · Science in Balance</span>
-      <p>A barrier-first skincare laboratory, calibrated to the skin's natural pH of 5.5 and inspired by northern restraint.</p>
-    </div>
-    <div class="foot-col">
-      <h5>— Skincare</h5>
-      <ul>
-        <li><a href="rens.html">Rens · 55.01</a></li>
-        <li><a href="#">Tonik · 55.02</a></li>
-        <li><a href="#">Køl · 55.02</a></li>
-        <li><a href="#">Rav Perle · 55.03</a></li>
-        <li><a href="#">Tidløs Hud · 55.04</a></li>
-        <li><a href="#">Eternus · 55.06</a></li>
-        <li><a href="#">Glød · 55.07</a></li>
-      </ul>
-    </div>
-    <div class="foot-col">
-      <h5>— Laboratory</h5>
-      <ul>
-        <li><a href="#">Philosophy</a></li>
-        <li><a href="#">The Ritual</a></li>
-        <li><a href="#">Sourcing</a></li>
-        <li><a href="#">Press</a></li>
-      </ul>
-    </div>
-    <div class="foot-col">
-      <h5>— Contact</h5>
-      <ul>
-        <li><a href="#">apothecary@n55lab.com</a></li>
-        <li><a href="#">n55lab.com</a></li>
-        <li><a href="#">Made in Australia</a></li>
-        <li><a href="#">By appointment</a></li>
-      </ul>
-    </div>
+    <div class="foot-col"><h2>Products</h2><ul>
+      <li><a href="rens.html">Rens cleanser</a></li><li><a href="tonik.html">Tonik toner</a></li>
+      <li><a href="rav-perle.html">Rav Perle serum</a></li><li><a href="glod.html">Glød serum</a></li><li><a href="serum-3.html">Serum 3</a></li>
+      <li><a href="tidlos-hud.html">Tidløs Hud moisturiser</a></li><li><a href="eternus.html">Eternus SPF 50</a></li>
+    </ul></div>
+    <div class="foot-col"><h2>Learn</h2><ul>
+      <li><a href="system.html">Build your routine</a></li><li><a href="philosophy.html">Formulation and the barrier</a></li>
+      <li><a href="skincare.html">Compare all products</a></li><li><a href="journal.html">Journal</a></li>
+    </ul></div>
+    <div class="foot-col"><h2>Contact</h2><ul>
+      <li><a href="mailto:apothecary@n55lab.com">apothecary@n55lab.com</a></li>
+      <li>Formulated in Australia</li><li>Copenhagen-inspired design</li><li>Fragrance free</li>
+    </ul></div>
   </div>
-  <div class="foot-bottom">
-    <span>© MMXXVI · N°55 Laboratorium</span>
-    <span>55°N · pH 5.5 ± 0.2</span>
-    <span>n55lab.com</span>
-    <span>Site v.2.1</span>
-  </div>
+  <div class="foot-bottom"><span>© 2026 N°55 Laboratorium</span><span>Calibrated for skin equilibrium</span></div>
 </footer>
 
+<script src="site.js"></script>
 </body>
 </html>
