@@ -1,0 +1,13 @@
+<svg role="img" viewBox="0 0 80 220" xmlns="http://www.w3.org/2000/svg"><title>Eternus SPF 50 sunscreen tube</title>
+          <defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BAB096"/><stop offset="50%" stop-color="#E2D9BD"/><stop offset="100%" stop-color="#A89E83"/></linearGradient></defs>
+          <ellipse cx="40" cy="216" rx="22" ry="2" fill="rgba(45,38,28,0.18)"/>
+          <rect x="32" y="204" width="16" height="10" rx="1" fill="#A89C7E"/>
+          <rect x="20" y="14" width="40" height="3" fill="#1F1B15"/>
+          <path d="M 22 17 L 58 17 L 56 210 L 24 210 Z" fill="url(#g6)" stroke="#A89D80" stroke-width="0.4"/>
+          <rect x="24" y="22" width="2.5" height="184" fill="rgba(255,250,235,0.35)"/>
+          <rect x="28" y="70" width="24" height="110" rx="1" fill="rgba(248,242,224,0.5)" stroke="rgba(140,124,98,0.18)" stroke-width="0.2"/>
+          <text x="40" y="116" text-anchor="middle" font-family="Playfair Display" font-weight="500" font-size="10" fill="#2A2620">ETERNUS</text>
+          <text x="40" y="128" text-anchor="middle" font-family="Archivo" font-size="2.8" letter-spacing="1" fill="#3D3327">SPF 50</text>
+          <text x="40" y="138" text-anchor="middle" font-family="Archivo" font-size="2.3" letter-spacing="0.8" fill="#3D3327">HYBRID SUNSCREEN</text>
+          <text x="40" y="164" text-anchor="middle" font-family="JetBrains Mono" font-size="2.4" fill="#6E5F45">50 mL</text>
+        </svg>

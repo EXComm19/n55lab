@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-24T01:35:31.3059533+10:00",
+  "title": "Design System: N°55 Laboratorium",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "primary", "displayName": "Northern Ink", "canonical": "#2A2620", "tonalRamp": ["oklch(15% 0.02 80)", "oklch(27% 0.02 80)", "oklch(39% 0.02 80)", "oklch(51% 0.02 80)", "oklch(63% 0.02 80)", "oklch(75% 0.02 80)", "oklch(87% 0.02 80)", "oklch(95% 0.02 80)"] },
+      "graphite": { "role": "neutral", "displayName": "Formula Graphite", "canonical": "#3D3327", "tonalRamp": ["oklch(15% 0.03 70)", "oklch(27% 0.03 70)", "oklch(39% 0.03 70)", "oklch(51% 0.03 70)", "oklch(63% 0.03 70)", "oklch(75% 0.03 70)", "oklch(87% 0.03 70)", "oklch(95% 0.03 70)"] },
+      "signal": { "role": "primary", "displayName": "Barrier Green", "canonical": "#31594D", "tonalRamp": ["oklch(15% 0.05 165)", "oklch(27% 0.05 165)", "oklch(39% 0.05 165)", "oklch(51% 0.05 165)", "oklch(63% 0.05 165)", "oklch(75% 0.05 165)", "oklch(87% 0.05 165)", "oklch(95% 0.05 165)"] },
+      "surface": { "role": "neutral", "displayName": "Quiet Neutral", "canonical": "#FAF8F3", "tonalRamp": ["oklch(15% 0.01 90)", "oklch(27% 0.01 90)", "oklch(39% 0.01 90)", "oklch(51% 0.01 90)", "oklch(63% 0.01 90)", "oklch(75% 0.01 90)", "oklch(87% 0.01 90)", "oklch(95% 0.01 90)"] },
+      "surface-strong": { "role": "neutral", "displayName": "Clear Surface", "canonical": "#FFFDF9", "tonalRamp": ["oklch(15% 0.008 90)", "oklch(27% 0.008 90)", "oklch(39% 0.008 90)", "oklch(51% 0.008 90)", "oklch(63% 0.008 90)", "oklch(75% 0.008 90)", "oklch(87% 0.008 90)", "oklch(95% 0.008 90)"] },
+      "surface-sage": { "role": "secondary", "displayName": "Barrier Wash", "canonical": "#E4E8DF", "tonalRamp": ["oklch(15% 0.02 130)", "oklch(27% 0.02 130)", "oklch(39% 0.02 130)", "oklch(51% 0.02 130)", "oklch(63% 0.02 130)", "oklch(75% 0.02 130)", "oklch(87% 0.02 130)", "oklch(95% 0.02 130)"] },
+      "paper": { "role": "neutral", "displayName": "Calibrated Paper", "canonical": "#EFE7D2", "tonalRamp": ["oklch(15% 0.04 90)", "oklch(27% 0.04 90)", "oklch(39% 0.04 90)", "oklch(51% 0.04 90)", "oklch(63% 0.04 90)", "oklch(75% 0.04 90)", "oklch(87% 0.04 90)", "oklch(95% 0.04 90)"] },
+      "paper-deep": { "role": "neutral", "displayName": "Pressed Paper", "canonical": "#E8DFC6", "tonalRamp": ["oklch(15% 0.045 90)", "oklch(27% 0.045 90)", "oklch(39% 0.045 90)", "oklch(51% 0.045 90)", "oklch(63% 0.045 90)", "oklch(75% 0.045 90)", "oklch(87% 0.045 90)", "oklch(95% 0.045 90)"] },
+      "paper-pressed": { "role": "neutral", "displayName": "Deep Paper", "canonical": "#DDD2B5", "tonalRamp": ["oklch(15% 0.05 88)", "oklch(27% 0.05 88)", "oklch(39% 0.05 88)", "oklch(51% 0.05 88)", "oklch(63% 0.05 88)", "oklch(75% 0.05 88)", "oklch(87% 0.05 88)", "oklch(95% 0.05 88)"] },
+      "taupe": { "role": "neutral", "displayName": "Laboratory Taupe", "canonical": "#6F624B", "tonalRamp": ["oklch(15% 0.045 82)", "oklch(27% 0.045 82)", "oklch(39% 0.045 82)", "oklch(51% 0.045 82)", "oklch(63% 0.045 82)", "oklch(75% 0.045 82)", "oklch(87% 0.045 82)", "oklch(95% 0.045 82)"] },
+      "mist": { "role": "neutral", "displayName": "Calibration Mist", "canonical": "#BFB59C", "tonalRamp": ["oklch(15% 0.04 87)", "oklch(27% 0.04 87)", "oklch(39% 0.04 87)", "oklch(51% 0.04 87)", "oklch(63% 0.04 87)", "oklch(75% 0.04 87)", "oklch(87% 0.04 87)", "oklch(95% 0.04 87)"] },
+      "hairline": { "role": "neutral", "displayName": "Paper Hairline", "canonical": "#D4C8AC", "tonalRamp": ["oklch(15% 0.045 88)", "oklch(27% 0.045 88)", "oklch(39% 0.045 88)", "oklch(51% 0.045 88)", "oklch(63% 0.045 88)", "oklch(75% 0.045 88)", "oklch(87% 0.045 88)", "oklch(95% 0.045 88)"] },
+      "sage": { "role": "secondary", "displayName": "Barrier Sage", "canonical": "#92957C", "tonalRamp": ["oklch(15% 0.04 111)", "oklch(27% 0.04 111)", "oklch(39% 0.04 111)", "oklch(51% 0.04 111)", "oklch(63% 0.04 111)", "oklch(75% 0.04 111)", "oklch(87% 0.04 111)", "oklch(95% 0.04 111)"] },
+      "sku-cleanser": { "role": "tertiary", "displayName": "Cleanser Moss", "canonical": "#9AA48E", "tonalRamp": ["oklch(15% 0.04 121)", "oklch(27% 0.04 121)", "oklch(39% 0.04 121)", "oklch(51% 0.04 121)", "oklch(63% 0.04 121)", "oklch(75% 0.04 121)", "oklch(87% 0.04 121)", "oklch(95% 0.04 121)"] },
+      "sku-toner": { "role": "tertiary", "displayName": "Toner Mineral Blue", "canonical": "#8FA6B4", "tonalRamp": ["oklch(15% 0.04 235)", "oklch(27% 0.04 235)", "oklch(39% 0.04 235)", "oklch(51% 0.04 235)", "oklch(63% 0.04 235)", "oklch(75% 0.04 235)", "oklch(87% 0.04 235)", "oklch(95% 0.04 235)"] },
+      "sku-mask": { "role": "tertiary", "displayName": "Mask Dusty Rose", "canonical": "#C49098", "tonalRamp": ["oklch(15% 0.07 6)", "oklch(27% 0.07 6)", "oklch(39% 0.07 6)", "oklch(51% 0.07 6)", "oklch(63% 0.07 6)", "oklch(75% 0.07 6)", "oklch(87% 0.07 6)", "oklch(95% 0.07 6)"] },
+      "sku-rav-serum": { "role": "tertiary", "displayName": "Rav Amber", "canonical": "#C4A878", "tonalRamp": ["oklch(15% 0.07 82)", "oklch(27% 0.07 82)", "oklch(39% 0.07 82)", "oklch(51% 0.07 82)", "oklch(63% 0.07 82)", "oklch(75% 0.07 82)", "oklch(87% 0.07 82)", "oklch(95% 0.07 82)"] },
+      "sku-moisturiser": { "role": "tertiary", "displayName": "Moisturiser Mauve", "canonical": "#A89CB8", "tonalRamp": ["oklch(15% 0.05 303)", "oklch(27% 0.05 303)", "oklch(39% 0.05 303)", "oklch(51% 0.05 303)", "oklch(63% 0.05 303)", "oklch(75% 0.05 303)", "oklch(87% 0.05 303)", "oklch(95% 0.05 303)"] },
+      "sku-sunscreen": { "role": "tertiary", "displayName": "Sunscreen Stone", "canonical": "#BCB09C", "tonalRamp": ["oklch(15% 0.035 84)", "oklch(27% 0.035 84)", "oklch(39% 0.035 84)", "oklch(51% 0.035 84)", "oklch(63% 0.035 84)", "oklch(75% 0.035 84)", "oklch(87% 0.035 84)", "oklch(95% 0.035 84)"] },
+      "sku-glod-serum": { "role": "tertiary", "displayName": "Glød Ochre", "canonical": "#C4AA60", "tonalRamp": ["oklch(15% 0.095 92)", "oklch(27% 0.095 92)", "oklch(39% 0.095 92)", "oklch(51% 0.095 92)", "oklch(63% 0.095 92)", "oklch(75% 0.095 92)", "oklch(87% 0.095 92)", "oklch(95% 0.095 92)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Product names and page-opening statements." },
+      "headline": { "displayName": "Headline", "purpose": "Section propositions and routine education." },
+      "title": { "displayName": "Product Title", "purpose": "Product names and compact content anchors." },
+      "body": { "displayName": "Evidence Body", "purpose": "Claims, guidance, and formula explanations." },
+      "label": { "displayName": "Formula Label", "purpose": "Short metadata, quantities, and formula numbers." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "state-standard", "value": "350ms ease", "purpose": "Color, underline, and spacing feedback." },
+      { "name": "reveal-standard", "value": "1200ms cubic-bezier(.2,.7,.2,1)", "purpose": "Rare editorial reveal for content that is visible by default." },
+      { "name": "directional", "value": "350ms cubic-bezier(.7,0,.3,1)", "purpose": "Underline and arrow movement." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "560px" },
+      { "name": "mobile-grid", "value": "640px" },
+      { "name": "single-column", "value": "700px" },
+      { "name": "nav-collapse", "value": "900px" },
+      { "name": "hero-stack", "value": "1000px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary CTA",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The decisive action for product and launch conversion.",
+      "html": "<a class=\"ds-primary-cta\" href=\"#\">VIEW PRODUCT <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-primary-cta{display:inline-flex;align-items:center;gap:10px;background:var(--signal,#31594D);color:#fff;padding:14px 22px;border:1px solid var(--signal,#31594D);font-family:var(--f-sans,'Archivo',sans-serif);font-size:14px;font-weight:600;text-decoration:none;transition:background .22s ease-out,transform .22s ease-out}.ds-primary-cta:hover{background:#24443B;transform:translateY(-1px)}.ds-primary-cta:focus-visible{outline:3px solid #155EEF;outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary-cta{transition:none}}"
+    },
+    {
+      "name": "Text CTA",
+      "kind": "button",
+      "description": "A quiet directional action within editorial sections.",
+      "html": "<a class=\"ds-text-cta\" href=\"#\">LEARN THE SCIENCE <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-text-cta{display:inline-flex;align-items:center;gap:12px;color:var(--ink,#2A2620);padding-bottom:6px;border-bottom:1px solid currentColor;font-family:var(--f-mono,'JetBrains Mono',monospace);font-size:11px;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;transition:gap .35s ease}.ds-text-cta:hover{gap:22px}.ds-text-cta:focus-visible{outline:2px solid currentColor;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-text-cta{transition:none}}"
+    },
+    {
+      "name": "Formula Tag",
+      "kind": "chip",
+      "refersTo": "sku-tag",
+      "description": "A named formula attribute that never relies on color alone.",
+      "html": "<span class=\"ds-formula-tag\">FRAGRANCE FREE</span>",
+      "css": ".ds-formula-tag{display:inline-flex;padding:8px 16px;border:1px solid var(--hair,#D4C8AC);border-radius:100px;background:var(--paper,#EFE7D2);color:var(--graphite,#3D3327);font-family:var(--f-mono,'JetBrains Mono',monospace);font-size:10px;letter-spacing:.24em;text-transform:uppercase}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "A ruled product object with formula metadata and a restrained tonal hover.",
+      "html": "<a class=\"ds-product-card\" href=\"#\"><span class=\"ds-product-ref\">N°55.03 · SERUM</span><strong>Rav Perle</strong><em>Barrier Support Serum</em><span class=\"ds-product-meta\">30 ML <span aria-hidden=\"true\">→</span></span></a>",
+      "css": ".ds-product-card{display:flex;min-height:320px;flex-direction:column;gap:22px;padding:40px 28px;background:var(--paper,#EFE7D2);color:var(--ink,#2A2620);border:1px solid var(--hair,#D4C8AC);text-decoration:none;transition:background .4s ease}.ds-product-card:hover{background:var(--paper-2,#E8DFC6)}.ds-product-card:focus-visible{outline:2px solid var(--ink,#2A2620);outline-offset:3px}.ds-product-ref,.ds-product-meta{font-family:var(--f-mono,'JetBrains Mono',monospace);font-size:10px;letter-spacing:.28em;text-transform:uppercase}.ds-product-ref{color:var(--taupe,#8E8267)}.ds-product-card strong{margin-top:auto;font-family:var(--f-serif,'Playfair Display',serif);font-size:28px;font-weight:500}.ds-product-card em{font-family:var(--f-serif,'Playfair Display',serif);font-size:15px;color:var(--graphite,#3D3327)}.ds-product-meta{display:flex;justify-content:space-between;padding-top:16px;border-top:1px solid var(--hair,#D4C8AC)}@media(prefers-reduced-motion:reduce){.ds-product-card{transition:none}}"
+    },
+    {
+      "name": "Laboratory Navigation",
+      "kind": "nav",
+      "description": "A restrained fixed navigation with explicit active and keyboard states.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a class=\"ds-brand\" href=\"#\">N°55</a><div><a href=\"#\">SKINCARE</a><a href=\"#\">THE SYSTEM</a><a href=\"#\">PHILOSOPHY</a></div></nav>",
+      "css": ".ds-nav{display:grid;grid-template-columns:1fr auto;align-items:center;padding:22px 32px;background:rgba(239,231,210,.92);border-bottom:1px solid var(--hair,#D4C8AC);color:var(--ink,#2A2620)}.ds-nav>div{display:flex;gap:32px}.ds-nav a{color:inherit;text-decoration:none}.ds-nav>div a{padding-bottom:6px;border-bottom:1px solid transparent;font-family:var(--f-mono,'JetBrains Mono',monospace);font-size:11px;letter-spacing:.28em}.ds-nav>div a:hover{border-color:currentColor}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:3px}.ds-brand{font-family:var(--f-serif,'Playfair Display',serif);font-size:21px;font-weight:500}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Quiet Calibration",
+    "overview": "The interface should feel like a carefully prepared skincare formula translated into space, type, and sequence. Warm paper surfaces keep the laboratory language humane; graphite typography supplies authority; measured Morandi accents identify formulas without turning the routine into a color-coded toy. The system is precise and tactile. Depth comes from tonal shifts, hairline rules, scale, and generous spacing rather than ornamental effects.",
+    "keyCharacteristics": ["Warm paper field with dark, readable ink", "Product-first editorial pacing and large negative space", "Fine laboratory rules and structured formula metadata", "Muted SKU colors paired with names and numbers", "Flat, responsive surfaces with restrained motion"],
+    "rules": [
+      { "name": "The Calibration Rule", "body": "Every decorative choice must clarify product, routine, or evidence. If it does none of those jobs, remove it.", "section": "overview" },
+      { "name": "The Ink First Rule", "body": "Body copy uses Northern Ink or Graphite. Taupe is never body text and must not carry essential information.", "section": "colors" },
+      { "name": "The Named Formula Rule", "body": "Color never communicates an SKU, serum choice, or routine step on its own.", "section": "colors" },
+      { "name": "The Evidence Reads Easily Rule", "body": "Instructions, claims, and ingredient explanations never use mono, italics, or low-contrast taupe as their primary style.", "section": "typography" },
+      { "name": "The Flat by Default Rule", "body": "Cards and product fields sit on the page plane. Hover changes tone or spacing; it never introduces a wide ambient shadow.", "section": "elevation" }
+    ],
+    "dos": ["Do maintain WCAG 2.2 AA contrast, visible keyboard focus, semantic structure, and comfortable mobile touch targets.", "Do pair each Morandi SKU accent with product name, formula number, and routine role.", "Do use the cleanser-plus-moisturiser pairing as the clearest starting route for reactive or compromised skin.", "Do respect prefers-reduced-motion; content must remain visible without animation."],
+    "donts": ["Don't use sterile dermatology-clinic aesthetics, cold medical blue, stock model imagery, or hospital-like interfaces.", "Don't use generic clean-beauty imagery such as leaves, water splashes, beige bottles, or vague sustainability claims.", "Don't use loud pastel beauty styling, cute icons, TikTok gradients, glow effects, excessive motion, or inflated claims.", "Don't directly imitate Aesop or Le Labo through dense apothecary labels or copied packaging logic.", "Don't use low-contrast beige-on-beige styling.", "Don't rely on color alone to distinguish Rav Perle from Glød or any other SKU."]
+  }
+}

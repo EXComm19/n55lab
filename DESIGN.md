@@ -134,7 +134,7 @@ The palette combines warm paper neutrals with graphite text and a controlled Mor
 ### Secondary
 
 - **Barrier Sage:** A quiet biological accent for barrier care and general system cues.
-- **Formula Morandi Accents:** Cleanser green, toner blue, mask rose, Rav amber, moisturiser mauve, sunscreen stone, Glød ochre, and Serum 3 dusty rose identify individual formulas. Always pair them with a product name, formula number, or step label.
+- **Formula Morandi Accents:** Cleanser green, toner blue, mask rose, Rav amber, moisturiser mauve, sunscreen stone, Glød ochre, and PinPerle dusty rose identify individual formulas. Always pair them with a product name, formula number, or step label.
 
 ### Neutral
 

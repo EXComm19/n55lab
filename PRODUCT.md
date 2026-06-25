@@ -16,7 +16,7 @@ For sensitised or compromised skin, the recommended entry point is a simple clea
 
 N°55 Laboratorium is a Copenhagen-inspired skincare system formulated in Australia for skin equilibrium. Its fragrance-free formulas support sensitive and age-supportive routines through product-specific specifications, barrier-conscious formulation, and clear evidence-led education. Copenhagen is the design influence, not a claim of Danish manufacture; pH is one formula parameter where relevant, not a universal benefit claim.
 
-The core routine is Cleanser, Toner, Serum, Moisturiser, Sunscreen, and Mask. Rav Perle, Glød, and the provisionally named Serum 3 are alternative choices within the serum step: Rav Perle for brightening and antioxidant support, Glød for repair-support and soothing comfort, and Serum 3 for plumping hydration and age-supportive care.
+The core routine is Cleanser, Toner, Serum, Moisturiser, Sunscreen, and Mask. Rav Perle, Glød, and PinPerle are alternative choices within the serum step: Rav Perle for brightening and antioxidant support, Glød for repair-support and soothing comfort, and PinPerle for plumping hydration and age-supportive care.
 
 The site sells the world and point of view of N°55 first, then supports product discovery, routine education, trust, and conversion. Success means visitors understand the system without feeling overwhelmed and feel confident choosing a safe starting routine.
 
